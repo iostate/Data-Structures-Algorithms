@@ -1,0 +1,33 @@
+PseudoCode for FamilyTree: (Uses a data structure that allows for left, middle, and right node since some people decided to have 3 children. They obviously didn’t think far enough into the future, and now I have to improvise)
+
+1) Add grandma as root. If array is empty, set left and right nodes to null
+
+2) Add Ney as leaf Node, set parent node to root
+
+3) Add Mother as leaf node, set parent node to root
+
+4) Add Lina as leaf node, set parent to root
+
+5) Add Chico as leaf node, set parent to root
+
+6) Set Jose as leaf node, set parent to root
+
+
+Children.. (Uses find() method to locate parent)
+
+7) Find mother, set left node as Me
+
+8) Find mother, set Lan as Right node
+
+9) Find Lina, set Paco as left Node
+
+10) Find Lina, set Arlen as Middle Node
+
+11) Find Lina, set Diego as Right Node
+
+12) Find Jose, set Renan as left node.
+
+13) Find Jose, set Yuridhia as middle Node.
+
+14) Find Jose, set Luis as right node.
+
