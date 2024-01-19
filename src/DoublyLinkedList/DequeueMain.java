@@ -11,9 +11,9 @@ package DoublyLinkedList;
  Description: Creates a doubly linked list and adds elements to it.
 
  */
-public class DequeMain {
+public class DequeueMain {
    public static void main(String[] args) {
-      Deque dll = new Deque();
+      Dequeue dll = new Dequeue();
       dll.enqueueFront(21);
       dll.enqueueFront(12);
       dll.enqueueRear(10);

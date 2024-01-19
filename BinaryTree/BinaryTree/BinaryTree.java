@@ -1,11 +1,10 @@
+package BinaryTree;
+
 /**
  * Created by qmtruong92 on 7/17/17.
  */
 public class BinaryTree {
-
-
     Node root;
-
 
     public void addNode(int key, String name) {
         Node newNode = new Node(key, name);
@@ -38,7 +37,6 @@ public class BinaryTree {
                     }
                 }
 
-
             }
         }
     }
@@ -46,10 +44,9 @@ public class BinaryTree {
     public void inOrderTraverseTree(Node focusNode) {
 
         if (focusNode != null) {
-             inOrderTraverseTree(focusNode.leftChild);
+            inOrderTraverseTree(focusNode.leftChild);
 
             System.out.println(focusNode);
-
 
             inOrderTraverseTree(focusNode.rightChild);
         }
@@ -58,7 +55,6 @@ public class BinaryTree {
     public void preorderTraverseTree(Node focusNode) {
 
         if (focusNode != null) {
-
 
             System.out.println(focusNode);
 
@@ -72,11 +68,7 @@ public class BinaryTree {
 
         if (focusNode != null) {
 
-
-
-
             postOrderTraverseTree(focusNode.leftChild);
-
 
             postOrderTraverseTree(focusNode.rightChild);
 
@@ -84,11 +76,7 @@ public class BinaryTree {
         }
     }
 
-
-
-
-
-    class Node {
+    public class Node {
 
         int key;
         String name;
@@ -98,7 +86,6 @@ public class BinaryTree {
         Node(int key, String name) {
             this.key = key;
             this.name = name;
-
         }
 
         @Override
